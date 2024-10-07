@@ -1,0 +1,51 @@
+{
+  "expo": {
+    "name": "Arakapp",
+    "slug": "Arakapp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/image/AsanPardakht.png",
+    "userInterfaceStyle": "light",
+   
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "jsEngine": "jsc"
+    },
+    "android": {
+      "jsEngine": "hermes",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/image/AsanPardakht.png",
+        "backgroundColor": "#ffffff"
+      },
+      
+      "package": "com.mostafa7312.Arakapp"
+    },
+    "web": {
+      "favicon": "./assets/image/AsanPardakht.png"
+    },
+    "plugins": [
+      
+      [
+        "expo-updates",
+        {
+          "username": "mostafa7312"
+        }
+      ],
+      [
+        "expo-contacts",
+        {
+          "contactsPermission": "Allow $(PRODUCT_NAME) to access your contacts."
+        }
+      ]
+      
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "03300986-3f61-46db-9b82-f15378a8126f"
+      }
+    }
+  }
+}
